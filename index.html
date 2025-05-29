@@ -8,15 +8,41 @@
 </head>
 
 <body>
-    
-<form action="https://formspree.io/f/myzwrezb" method="POST">
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
 
-  <button type="submit">Send</button>
-</form>
+  <div class="congratulation">
+    <p>ВЫ ПРИГЛАШЕНЫ НА СВАДЬБУ</p>
+  </div>
+
+  <div>
+    <h1>Максим</h1>
+    <h1>Ангелина</h1>
+  </div>
+
+  <div>
+    <p>июнь</p>
+  </div>
+
+  <div>
+    <h1>03</h1>
+  </div>
+
+  <div>
+    <h1>2025</h1>
+  </div>
+
+  <div>
+    <p>СУББОТА</p>
+  </div>
+
+  <div>
+    <p>11:00</p>
+  </div>
+
+  <div>
+    <p>Добро пожаловать!</p>
+  </div>
+
+ <!--timer-->
 
 <div id="countdown">
   <div>
@@ -36,6 +62,8 @@
     <span>секунд</span>
   </div>
 </div>
+
+<!--logic for the timer-->
 
 <script>
   const weddingDate = new Date('2025-07-03T15:00:00').getTime();
@@ -58,6 +86,23 @@
   const timer = setInterval(updateCountdown, 1000);
   updateCountdown();
 </script>
+
+<!--a form for receiving messages and sending them further to the post office-->
+    
+<form action="https://formspree.io/f/myzwrezb" method="POST">
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <button type="submit">Send</button>
+</form>
+
+<iframe class="map-section" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d66d31817fbd40434cc0b8aebd4dc0803c063b3a969d64c0a0abe49199b8b64&amp;source=constructor" 
+  width=450 
+  height=450 
+  frameborder="0">
+</iframe>
 
 </body>
 
