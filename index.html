@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="log.js">
+    <link rel="stylesheet" href="javascript.js">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -15,12 +16,35 @@
   method="POST"
 >
   <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
     Your message:
     <textarea name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
   <button type="submit">Send</button>
 </form>
+
+<div id="countdown">
+  <div>
+    <span id="days">00</span>
+    <span>дней</span>
+  </div>
+  <div>
+    <span id="hours">00</span>
+    <span>часов</span>
+  </div>
+  <div>
+    <span id="minutes">00</span>
+    <span>минут</span>
+  </div>
+  <div>
+    <span id="seconds">00</span>
+    <span>секунд</span>
+  </div>
+</div>
 
 </body>
 

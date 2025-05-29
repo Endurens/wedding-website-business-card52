@@ -1,0 +1,10 @@
+#countdown {
+  display: flex;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+#countdown span:first-child {
+  font-size: 2em;
+  font-weight: bold;
+}
