@@ -1,112 +1,81 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+    <div class="container">
+        <div class="header">
+            <div class="welcome">ВЫ ПРИГЛАШЕНЫ <br> НА СВАДЬБУ</div>
+            <div class="coop-names">Максим <br> Ангелина</div>
+            <div>июль</div>
+            <div class="date">03</div>
+            <div class="divider1">СУББОТА</div>
+            <div class="divider2">11:00</div>
+            <div class="date-year">2025</div>
+            <div class="welcome-message">Добро пожаловать!</div>
+            <div class="image-container1"><img src="photo1.png" alt="adad"></div>
+        </div>
 
-  <div class="congratulation">
-    <p>ВЫ ПРИГЛАШЕНЫ НА СВАДЬБУ</p>
-  </div>
+        <div id="countdown">
+            <div>
+              <span id="days">00</span>
+              <span>дней</span>
+            </div>
+            <div>
+              <span id="hours">00</span>
+              <span>часов</span>
+            </div>
+            <div>
+              <span id="minutes">00</span>
+              <span>минут</span>
+            </div>
+            <div>
+              <span id="seconds">00</span>
+              <span>секунд</span>
+            </div>
+        </div>
 
-  <div>
-    <h1>Максим</h1>
-    <h1>Ангелина</h1>
-  </div>
+        <div class="body", class="body-rectangle">
+            <div class="welcome">Дорогой <br> гость!</div>
+            <div class="welcome-message">Мы рады сообщить Вам, что состоится самое главное торжество в нашей жизни - день нашей свадьбы! <br> Приглашаем Вас разделить с нами радость этого незабываемого дня.</div>
+            <div class="body-rectangle"></div>
+            <div class="image-container2"><img src="photo2.png" alt="adad"></div>
+        </div>
 
-  <div>
-    <p>июнь</p>
-  </div>
+        <div class="footer">
 
-  <div>
-    <h1>03</h1>
-  </div>
+        </div>
 
-  <div>
-    <h1>2025</h1>
-  </div>
-
-  <div>
-    <p>СУББОТА</p>
-  </div>
-
-  <div>
-    <p>11:00</p>
-  </div>
-
-  <div>
-    <p>Добро пожаловать!</p>
-  </div>
-
- <!--timer-->
-
-<div id="countdown">
-  <div>
-    <span id="days">00</span>
-    <span>дней</span>
-  </div>
-  <div>
-    <span id="hours">00</span>
-    <span>часов</span>
-  </div>
-  <div>
-    <span id="minutes">00</span>
-    <span>минут</span>
-  </div>
-  <div>
-    <span id="seconds">00</span>
-    <span>секунд</span>
-  </div>
-</div>
-
-<!--logic for the timer-->
-
-<script>
-  const weddingDate = new Date('2025-07-03T15:00:00').getTime();
-
-  function updateCountdown() {
-    const now = new Date().getTime();
-    const diff = weddingDate - now;
-
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-
-    document.getElementById('days').textContent = days.toString().padStart(2, '0');
-    document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
-    document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
-    document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
-  }
-
-  const timer = setInterval(updateCountdown, 1000);
-  updateCountdown();
-</script>
-
-<!--a form for receiving messages and sending them further to the post office-->
-    
-<form action="https://formspree.io/f/myzwrezb" method="POST">
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-
-  <button type="submit">Send</button>
-</form>
-
-<iframe class="map-section" src="https://yandex.ru/map-widget/v1/?um=constructor%3A1d66d31817fbd40434cc0b8aebd4dc0803c063b3a969d64c0a0abe49199b8b64&amp;source=constructor" 
-  width=450 
-  height=450 
-  frameborder="0">
-</iframe>
+    </div>
 
 </body>
-
-<footer>
-
-</footer>
+    <script>
+        const weddingDate = new Date('2025-07-03T15:00:00').getTime();
+        
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const diff = weddingDate - now;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            document.getElementById('days').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '5');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            
+            if (diff < 0) {
+              clearInterval(timer);
+              document.getElementById('countdown').innerHTML = '<h2>🎉 Ура! Сегодня свадьба!</h2>';
+            }
+        }
+    
+        const timer = setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
 </html>

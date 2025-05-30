@@ -1,23 +1,184 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("P22-cezanne-pro"),
+       url("/fonts/p22-cezanne-pro.otf") format("otf"),
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header .coop-names {
+    position: relative;
+    padding-top: 22px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.header .welcome {
+    padding-top: 143px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: bold;
+    color: #000000;
+}
+
+.header .date {
+    position: static;
+    padding-top: 18px;
+    font-size: 44px;
+    color: #966F3A;
+}
+
+.header .divider1 {
+    position: relative;
+    color: #000000;
+    border: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid;
+    border-style: ridge;
+    border-left: none;
+    border-right: none;
+    margin-right: 62%;
+    margin-left: 12%;
+    bottom: 48px;
+}
+
+.header .divider2 {
+    position: relative;
+    color: #000000;
+    border: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: solid;
+    border-style: ridge;
+    border-left: none;
+    border-right: none;
+    margin-left: 62%;
+    margin-right: 12%;
+    bottom: 90px;
+}
+
+.header .date-year {
+    position: relative;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 500;
+    bottom: 85px;
+}
+
+.header .welcome-message {
+    color: #000000;
+    position: relative;
+    bottom: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #countdown {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  font-family: Arial, sans-serif;
-  text-align: center;
+    position: relative;
+    color: #000000;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    bottom: 650px;
 }
+
 #countdown span:first-child {
-  display: flex;
-  justify-content: center;
-  font-size: 2em;
-  font-weight: bold;
+    position: relative;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
 }
 
-.congratulation {
-  text-align: center;
+.body {
+    position: relative;
+    text-align: center;
+    bottom: 560px;
 }
 
-.map-section {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
+.body-rectangle {
+    position: static;
+    margin-top: -120px;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffffff93; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
 }
+
+.body .welcome {
+    position: relative;
+    color: #966F3A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    top: 74px;
+}
+
+.body .welcome-message {
+    text-align: center;
+    position: relative;
+    margin-right: 19%;
+    margin-left: 19%;
+    top: 90px;
+}
+
+
+.image-container1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+    bottom: 600px;
+    z-index: -1;
+}
+
+.image-container1 img {
+    position: relative;
+    max-width: 100%; 
+    width: 900px;
+    height: 650px; 
+}
+
+.image-container2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin: 20px 0; 
+    bottom: 900px;
+    left: 34px;
+    z-index: -1;
+}
+
+.image-container2 img {
+    position: relative;
+    width: 350px;
+    height: 900px; 
+}
+
