@@ -152,7 +152,8 @@
 
 .image-container1 img {
     position: relative;
-    max-width: 100%; 
+    max-width: 100%;
+    width: 950px;
     height: 650px; 
 }
 
