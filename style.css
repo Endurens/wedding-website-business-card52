@@ -190,7 +190,7 @@
 }
 
 .image-container2 img {
-    position: static;
+    position: relative;
     width: 350px;
     height: 900px; 
 }
@@ -204,8 +204,8 @@
 }
 
 .image-container3 img {
-    position: static;
-    width: 290px;
+    position: relative;
+    width: 260px;
     height: 350px; 
 }
 
@@ -218,7 +218,7 @@
 }
 
 .image-container4 img {
-    position: static;
+    position: relative;
     width: 240px;
     height: 350px; 
 }
@@ -232,7 +232,7 @@
 }
 
 .image-container4M img {
-    position: static;
+    position: relative;
     width: 240px;
     height: 320px; 
 }
