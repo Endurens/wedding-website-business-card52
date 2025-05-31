@@ -1,15 +1,7 @@
-@font-face {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  src: local("P22-cezanne-pro"),
-       url("/fonts/p22-cezanne-pro.otf") format("otf"),
-}
-
 .container {
     margin: 0 auto;
     padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "PT Serif", serif;
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -22,28 +14,28 @@
 
 .header .coop-names {
     position: relative;
-    padding-top: 22px;
-    margin-bottom: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    padding-top: 28px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
     font-size: 60px;
-    font-weight: bold;
     color: #000000;
     margin: 20px 0;
     text-align: center;
 }
 
 .header .welcome {
-    padding-top: 143px;
+    position: relative;
+    top: 24px;
+    padding-top: 149px;
     font-size: 12px;
     text-align: center;
-    line-height: 1.6;
-    font-weight: bold;
     color: #000000;
 }
 
 .header .date {
     position: static;
-    padding-top: 18px;
+    padding-top: 14px;
     font-size: 44px;
     color: #966F3A;
 }
@@ -54,13 +46,12 @@
     border: #000000;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: solid;
-    border-style: ridge;
+    border: 2px solid;
     border-left: none;
     border-right: none;
     margin-right: 62%;
     margin-left: 12%;
-    bottom: 48px;
+    bottom: 48.5px;
 }
 
 .header .divider2 {
@@ -69,8 +60,7 @@
     border: #000000;
     padding-top: 8px;
     padding-bottom: 8px;
-    border: solid;
-    border-style: ridge;
+    border: 2px solid;
     border-left: none;
     border-right: none;
     margin-left: 62%;
@@ -90,7 +80,8 @@
     color: #000000;
     position: relative;
     bottom: 70px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Great Vibes", cursive;
+    font-size: 24px;
 }
 
 #countdown {
@@ -136,9 +127,9 @@
 .body .welcome {
     position: relative;
     color: #966F3A;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Great Vibes", cursive;
     font-size: 30px;
-    top: 74px;
+    top: 71px;
 }
 
 .body .welcome-message {
@@ -162,7 +153,7 @@
 .image-container1 img {
     position: relative;
     max-width: 100%; 
-    width: 900px;
+    width: 950px;
     height: 650px; 
 }
 
@@ -177,7 +168,6 @@
 }
 
 .image-container2 img {
-    position: relative;
     width: 350px;
     height: 900px; 
 }
