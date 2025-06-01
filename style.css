@@ -95,7 +95,243 @@
     margin-right: 10%;
     background-color: #ffffffbb; 
     justify-content: center; 
+    align-items: center; .container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "PT Serif", serif;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header .coop-names {
+    position: relative;
+    padding-top: 28px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: #000000;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.header .welcome {
+    position: relative;
+    top: 24px;
+    padding-top: 149px;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+.header .date {
+    position: static;
+    padding-top: 14px;
+    font-size: 44px;
+    color: #966F3A;
+}
+
+.header .divider1 {
+    position: relative;
+    color: #000000;
+    border: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid;
+    border-left: none;
+    border-right: none;
+    margin-right: 62%;
+    margin-left: 12%;
+    bottom: 48.5px;
+}
+
+.header .divider2 {
+    position: relative;
+    color: #000000;
+    border: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid;
+    border-left: none;
+    border-right: none;
+    margin-left: 62%;
+    margin-right: 12%;
+    bottom: 90px;
+}
+
+.header .date-year {
+    position: relative;
+    color: #000000;
+    font-size: 19px;
+    font-weight: 500;
+    bottom: 85px;
+}
+
+.header .welcome-message {
+    color: #000000;
+    position: relative;
+    bottom: 70px;
+    font-family: "Great Vibes", cursive;
+    font-size: 24px;
+}
+
+.body {
+    position: relative;
+    text-align: center;
+    bottom: 560px;
+}
+
+.body-rectangle {
+    position: static;
+    margin-top: -120px;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffffffbb; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     align-items: center; 
+}
+
+.body .welcome {
+    position: relative;
+    color: #966F3A;
+    font-family: "Great Vibes", cursive;
+    font-size: 37px;
+    top: 71px;
+}
+
+.body .welcome-message {
+    text-align: center;
+    position: relative;
+    margin-right: 19%;
+    margin-left: 19%;
+    top: 90px;
+}
+
+.body .quote1 {
+    position: relative;
+    bottom: 1500px;
+    font-size: 30px;
+    font-size: 25px;
+    color: #966F3A;
+    font-family: "Great Vibes", cursive;
+}
+
+.body .name-M {
+    position: relative;
+    bottom: 1450px;
+    font-size: 30px;
+    font-size: 25px;
+    color: #966F3A;
+    font-family: "Great Vibes", cursive;
+}
+
+.body .menu {
+    position: relative;
+    color: #966F3A;
+    font-size: 20px;
+    bottom: 1350px;
+}
+
+#countdown {
+    position: relative;
+    color: #000000;
+    position: relative;
+    font-family: "PT Serif", serif;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    bottom: 650px;
+}
+
+#countdown span:first-child {
+    position: relative;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image-container1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+    bottom: 600px;
+    z-index: -1;
+}
+
+.image-container1 img {
+    max-width: max-content;
+    max-width: 100%;
+    width: 950px;
+    height: 650px; 
+}
+
+.image-container2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin: 20px 0; 
+    bottom: 900px;
+    left: 34px;
+    left: 70px;
+    z-index: -1;
+}
+
+.image-container2 img {
+    width: 350px;
+    height: 900px; 
+}
+
+.image-container3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+    bottom: 1500px;
+}
+
+.image-container3 img {
+    width: 260px;
+    height: 350px; 
+}
+
+.image-container4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+    bottom: 1450px;
+}
+
+.image-container4 img {
+    width: 240px;
+    height: 350px; 
+}
+
+.image-container4M {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+    bottom: 1450px;
+}
+
+.image-container4M img {
+    width: 240px;
+    height: 320px; 
+}
 }
 
 .body .welcome {
