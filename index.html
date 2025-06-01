@@ -47,7 +47,6 @@
         <div class="body">
           <div class="welcome">Дорогой <br> гость!</div>
           <div class="welcome-message">Мы рады сообщить Вам, что состоится самое главное торжество в нашей жизни - день нашей свадьбы! <br> Приглашаем Вас разделить с нами радость этого незабываемого дня.</div>
-          <div class="body-rectangle"></div>
           <div class="image-container2"><img src="photo2.png" alt="adad"></div>
           <div class="image-container3"><img src="photo3.png" alt="adad"></div>
           <div class="quote1">Там где посеяна любовь растет <br> радость</div>
@@ -55,6 +54,7 @@
           <div class="name-M">Жених</div>
           <div class="image-container4M"><img src="photo A.png" alt="adad"></div>
           <div class="name-M">Невеста</div>
+          <div class="space"></div>
           <div class="menu">МЕНЮ</div>
           <div class="menu-dis">Меню разнообразно, поэтому сообщите нам заранее, если у вас есть какие-либо предпочтения или диетические ограничения. После подтверждения вы сможете пройти опрос о своих вкусовых предпочтениях и напитках</div>
           <div class="preferences">ПОЖЕЛАНИЯ ПО ПОДАРКАМ</div>
@@ -62,18 +62,25 @@
           <div class="confirmation">ПОДТВЕРЖДЕНИЕ</div>
           <div class="confirmation-dis">Пожалуйста подтвердите свое присутствие до 01.06.2025</div>
           <div class="photo">ФОТО</div>
-          <div class="photo-dis">Опубликуйте фото для нашей свадьбы в соц.сетях с хештегом #MoknoMA</div>
+          <div class="photo-dis">Опубликуйте фото для нашей свадьбы в соц.сетях с хештегом <b>#MoknoMA</b></div>
           <div class="waiting">Ждем Вас на свадьбе!</div>
+          <div class="body-rectangle"></div>
 
-          <formAdd commentMore actions action="https://formspree.io/f/myzwrezb" method="POST">
+          <form class="form" commentMore actions action="https://formspree.io/f/myzwrezb" method="POST">
             
-            <button type="submit">Подтвердить</button><br>
+            <button class="button" type="submit">Подтвердить</button><br>
+
+            <label class="lable-form">
+                Добавьте сообщение для жениха <br> и невесты
+            </label>
 
             <label>
-              <textarea name="message">...</textarea>
+              <textarea class="textarea" name="message"></textarea>
             </label>
             
           </form>
+
+          <div class="image-container2-reverse"><img src="photo2R.png" alt="adad"></div>
         </div>
 
         <div class="footer">

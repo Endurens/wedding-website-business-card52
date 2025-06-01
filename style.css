@@ -1,5 +1,4 @@
 .container {
-    position: absolute;
     font-family: "PT Serif", serif;
 }
 
@@ -87,20 +86,23 @@
 
 /* Body */
 
-
 .body {
     position: relative;
     text-align: center;
-    bottom: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .body-rectangle {
-    position: relative;
-    bottom: 130px;
-    height: 1700px;
+    position: absolute;
+    top: 100px;
+    width: 333px;
+    height: 5923px;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: #ffffffbb; 
+    background-color: #ffffffc9; 
     z-index: -1;
 }
 
@@ -123,81 +125,145 @@
 
 .body .quote1 {
     position: relative;
-    bottom: 2400px;
     font-size: 25px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
+    top: 190px;
 }
 
 .body .name-M {
     position: relative;
-    bottom: 2350px;
     font-size: 25px;
+    top: 190px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
+}
+
+.body .space {
+    position: relative;
+    align-items: center;
+    top: 210px;
+    width: 100px;
+    height: 100px;
 }
 
 .body .menu {
     position: relative;
     color: #966F3A;
     font-size: 20px;
-    bottom: 2250px;
+    top: 200px;
 }
 
 .body .menu-dis {
     position: relative;
-    bottom: 2240px;
-    margin-right: 14%;
-    margin-left: 14%;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 210px;
 }
 
 .body .preferences {
     position: relative;
     color: #966F3A;
     font-size: 20px;
-    bottom: 2200px;
+    top: 250px;
 }
 
 .body .preferences-dis {
     position: relative;
-    bottom: 2190px;
-    margin-right: 14%;
-    margin-left: 14%;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 260px;
 }
-
-
 
 .body .confirmation {
     position: relative;
     color: #966F3A;
     font-size: 20px;
-    bottom: 2150px;
+    top: 300px;
 }
 
 .body .confirmation-dis {
     position: relative;
-    bottom: 2140px;
-    margin-right: 14%;
-    margin-left: 14%;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 310px;
 }
-
 
 .body .photo {
     position: relative;
     color: #966F3A;
     font-size: 20px;
-    bottom: 2100px;
+    top: 350px;
 }
 
 .body .photo-dis {
     position: relative;
-    bottom: 2090px;
-    margin-right: 14%;
-    margin-left: 14%;
+    margin-right: 15%;
+    margin-left: 15%;
+    top: 360px;
 }
 
+.body .waiting {
+    position: relative;
+    color: #966F3A;
+    font-family: "Great Vibes", cursive;
+    margin-top: 20px;
+    font-size: 37px;
+    top: 430px;
+}
 
+.lable-form {
+    position: relative;
+    bottom: 10px;
+    color: #5D6B4C;
+    font-size: 17px;
+}
 
+/* Стили для контейнера формы */
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14%;
+    margin-left: 14%;
+    border-radius: 15px;
+    padding: 20px;
+    width: 400px;
+    top: 430px;
+    
+}
+/* Стили для кнопки */
+.button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-family: "PT Serif", serif;
+    align-items: center;
+    background-color: #5D6B4C; /* Зеленый цвет */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 80px;
+    font-size: 26px;
+}
+/* Стили для текстовой области */
+.textarea {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 233px;
+    width: 270px;
+    height: 320px;
+    border: 2px solid #966F3A;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 
 /* Логика и картинки */
 
@@ -211,7 +277,6 @@
     justify-content: center;
     gap: 20px;
     text-align: center;
-    bottom: 650px;
 }
 
 #countdown span:first-child {
@@ -224,10 +289,10 @@
 }
 
 .image-container1 {
-    position: relative;
+    position: absolute;
     justify-content: center;
-    margin: 20px 0; 
-    bottom: 600px;
+    margin: 20px 0;
+    top: 34px; 
     z-index: -2;
 }
 
@@ -239,9 +304,9 @@
 }
 
 .image-container2 {
-    position: relative;
-    bottom: 1900px;
-    left: 67px;
+    position: absolute;
+    align-items: end;
+    left: 125px;
     z-index: -2;
 }
 
@@ -250,11 +315,24 @@
     height: 900px; 
 }
 
+.image-container2-reverse {
+    position: relative;
+    align-items: start;
+    bottom: 420px;
+    right: 18px;
+    z-index: -2;
+}
+
+.image-container2-reverse img {
+    width: 450px;
+    height: 900px; 
+}
+
 .image-container3 {
     position: relative;
     justify-content: center;
+    top: 193px;
     margin: 20px 0; 
-    bottom: 2400px;
 }
 
 .image-container3 img {
@@ -265,8 +343,8 @@
 .image-container4 {
     position: relative;
     justify-content: center;
+    top: 193px;
     margin: 20px 0; 
-    bottom: 2350px;
 }
 
 .image-container4 img {
@@ -277,8 +355,8 @@
 .image-container4M {
     position: relative;
     justify-content: center;
+    top: 193px;
     margin: 20px 0; 
-    bottom: 2350px;
 }
 
 .image-container4M img {
