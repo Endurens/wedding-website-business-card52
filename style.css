@@ -121,18 +121,16 @@
 
 .body .quote1 {
     position: relative;
-    bottom: 1400px;
+    bottom: 1500px;
     font-size: 30px;
-    font-size: 25px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
 }
 
 .body .name-M {
     position: relative;
-    bottom: 1350px;
+    bottom: 1450px;
     font-size: 30px;
-    font-size: 25px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
 }
@@ -141,13 +139,8 @@
     position: relative;
     color: #966F3A;
     font-size: 20px;
-    bottom: 1250px;
+    bottom: 1350px;
 }
-
-
-
-
-/* logic and image */
 
 #countdown {
     position: relative;
@@ -172,8 +165,9 @@
 
 .image-container1 {
     position: relative;
+    display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: 20px 0; 
     bottom: 600px;
     z-index: -1;
 }
@@ -187,51 +181,58 @@
 
 .image-container2 {
     position: relative;
+    display: flex;
     justify-content: end;
     margin: 20px 0; 
     bottom: 900px;
-    left: 70px;
+    left: 34px;
     z-index: -1;
 }
 
 .image-container2 img {
+    position: static;
     width: 350px;
     height: 900px; 
 }
 
 .image-container3 {
     position: relative;
+    display: flex;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1400px;
+    bottom: 1500px;
 }
 
 .image-container3 img {
-    width: 260px;
+    position: static;
+    width: 290px;
     height: 350px; 
 }
 
 .image-container4 {
     position: relative;
+    display: flex;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1350px;
+    bottom: 1450px;
 }
 
 .image-container4 img {
+    position: static;
     width: 240px;
     height: 350px; 
 }
 
 .image-container4M {
     position: relative;
+    display: flex;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1350px;
+    bottom: 1450px;
 }
 
 .image-container4M img {
+    position: static;
     width: 240px;
     height: 320px; 
 }
-
