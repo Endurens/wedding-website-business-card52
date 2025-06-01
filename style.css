@@ -85,9 +85,7 @@
 }
 
 .body {
-    position: relative;
     text-align: center;
-    bottom: 560px;
 }
 
 .body-rectangle {
@@ -108,15 +106,16 @@
     color: #966F3A;
     font-family: "Great Vibes", cursive;
     font-size: 37px;
-    top: 71px;
+    bottom: 445px;
 }
 
 .body .welcome-message {
+    position: relative;
     text-align: center;
     position: relative;
     margin-right: 19%;
     margin-left: 19%;
-    top: 90px;
+    bottom: 445px;
 }
 
 .body .quote1 {
@@ -136,10 +135,19 @@
 }
 
 .body .menu {
+    text-align: center;
     position: relative;
     color: #966F3A;
     font-size: 20px;
     bottom: 1350px;
+}
+
+.body .menu-dis {
+    text-align: center;
+    position: relative;
+    margin-right: 19%;
+    margin-left: 19%;
+    bottom: 1345px;
 }
 
 #countdown {
