@@ -142,10 +142,12 @@
 .body .menu-dis {
     text-align: center;
     position: relative;
-    margin-right: 19%;
-    margin-left: 19%;
+    margin-right: 14%;
+    margin-left: 14%;
     bottom: 1345px;
 }
+
+/* logic and image */
 
 #countdown {
     position: relative;
