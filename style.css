@@ -84,6 +84,8 @@
     font-size: 24px;
 }
 
+
+
 .body {
     position: relative;
     text-align: center;
@@ -91,9 +93,9 @@
 }
 
 .body-rectangle {
-    position: static;
-    margin-top: -120px;
-    height: 100vh;
+    position: relative;
+    bottom: 130px;
+    height: 1700px;
     margin-left: 10%;
     margin-right: 10%;
     background-color: #ffffffbb; 
@@ -101,12 +103,14 @@
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
+    z-index: -1;
 }
 
 .body .welcome {
     position: relative;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
+    margin-top: 20px;
     font-size: 37px;
     top: 71px;
 }
@@ -121,7 +125,7 @@
 
 .body .quote1 {
     position: relative;
-    bottom: 1500px;
+    bottom: 2400px;
     font-size: 25px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
@@ -129,7 +133,7 @@
 
 .body .name-M {
     position: relative;
-    bottom: 1450px;
+    bottom: 2350px;
     font-size: 25px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
@@ -139,8 +143,11 @@
     position: relative;
     color: #966F3A;
     font-size: 20px;
-    bottom: 1350px;
+    bottom: 2250px;
 }
+
+
+
 
 #countdown {
     position: relative;
@@ -168,7 +175,7 @@
     justify-content: center;
     margin: 20px 0; 
     bottom: 600px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .image-container1 img {
@@ -182,9 +189,9 @@
     position: relative;
     justify-content: end;
     margin: 20px 0; 
-    bottom: 900px;
+    bottom: 1900px;
     left: 70px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .image-container2 img {
@@ -196,7 +203,7 @@
     position: relative;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1500px;
+    bottom: 2400px;
 }
 
 .image-container3 img {
@@ -208,7 +215,7 @@
     position: relative;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1450px;
+    bottom: 2350px;
 }
 
 .image-container4 img {
@@ -220,7 +227,7 @@
     position: relative;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1450px;
+    bottom: 2350px;
 }
 
 .image-container4M img {
