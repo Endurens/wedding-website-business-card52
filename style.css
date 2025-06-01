@@ -122,7 +122,7 @@
 .body .quote1 {
     position: relative;
     bottom: 1500px;
-    font-size: 30px;
+    font-size: 25px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
 }
@@ -130,7 +130,7 @@
 .body .name-M {
     position: relative;
     bottom: 1450px;
-    font-size: 30px;
+    font-size: 25px;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
 }
@@ -165,7 +165,6 @@
 
 .image-container1 {
     position: relative;
-    display: flex;
     justify-content: center;
     margin: 20px 0; 
     bottom: 600px;
@@ -181,11 +180,10 @@
 
 .image-container2 {
     position: relative;
-    display: flex;
     justify-content: end;
     margin: 20px 0; 
     bottom: 900px;
-    left: 34px;
+    left: 70px;
     z-index: -1;
 }
 
@@ -196,7 +194,6 @@
 
 .image-container3 {
     position: relative;
-    display: flex;
     justify-content: center;
     margin: 20px 0; 
     bottom: 1500px;
@@ -209,7 +206,6 @@
 
 .image-container4 {
     position: relative;
-    display: flex;
     justify-content: center;
     margin: 20px 0; 
     bottom: 1450px;
@@ -222,7 +218,6 @@
 
 .image-container4M {
     position: relative;
-    display: flex;
     justify-content: center;
     margin: 20px 0; 
     bottom: 1450px;
