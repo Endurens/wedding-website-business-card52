@@ -220,7 +220,7 @@
 }
 
 /* Стили для контейнера формы */
-.form {
+.body .form {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -236,7 +236,7 @@
 }
 
 /* Стили для кнопки */
-.button {
+.body .button {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -251,7 +251,7 @@
 }
 
 /* Стили для текстовой области */
-.textarea {
+.body .textarea {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -272,9 +272,9 @@
     position: absolute;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 37px;
-    top: 3050px;
+    top: 3000px;
 }
 
 .body .point-time {
@@ -414,5 +414,5 @@
     display: flex;
     align-content: center;
     flex-direction: column;
-    top: 4050px;
+    top: 4200px;
 }
