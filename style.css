@@ -98,7 +98,7 @@
     position: absolute;
     top: 100px;
     width: 333px;
-    height: 5923px;
+    height: 4300px;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -234,6 +234,7 @@
     top: 430px;
     
 }
+
 /* Стили для кнопки */
 .button {
     position: relative;
@@ -241,13 +242,14 @@
     flex-direction: column;
     font-family: "PT Serif", serif;
     align-items: center;
-    background-color: #5D6B4C; /* Зеленый цвет */
+    background-color: #5D6B4C; 
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px 80px;
+    padding: 10px 65px;
     font-size: 26px;
 }
+
 /* Стили для текстовой области */
 .textarea {
     position: relative;
@@ -265,8 +267,49 @@
     font-size: 16px;
 }
 
+
+.body .schedule {
+    position: absolute;
+    color: #966F3A;
+    font-family: "Great Vibes", cursive;
+    margin-top: 20px;
+    font-size: 37px;
+    top: 2990px;
+}
+
+.body .point-time {
+    position: relative;
+    text-align: start;
+    right: 170px;
+    bottom: 340px;
+}
+
+.body .point-place {
+    position: relative;
+    text-align: start;
+    left: 14%;
+    bottom: 385px;
+}
+
+.body .point-dis {
+    position: relative;
+    text-align: start;
+    bottom: 345px;
+    margin-right: 4%;
+    margin-left: 30%;
+}
+
+.body .space-shedule {
+    position: relative;
+    align-items: center;
+    top: 210px;
+    height: 50px;
+}
+
+
 /* Логика и картинки */
 
+/* Логика */
 
 #countdown {
     position: relative;
@@ -287,6 +330,8 @@
     font-size: 2em;
     font-weight: bold;
 }
+
+/* Картинки */
 
 .image-container1 {
     position: absolute;
@@ -362,4 +407,12 @@
 .image-container4M img {
     width: 240px;
     height: 320px; 
+}
+
+.map-section {
+    position: absolute;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    top: 3923px;
 }
