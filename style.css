@@ -241,6 +241,13 @@
     bottom: 1350px;
 }
 
+.body .menu {
+    position: relative;
+    color: #966F3A;
+    font-size: 20px;
+    bottom: 1350px;
+}
+
 #countdown {
     position: relative;
     color: #000000;
@@ -409,7 +416,8 @@
 .image-container1 {
     position: relative;
     justify-content: center;
-    margin: 20px 0; 
+    margin: 20px 0;
+    top: 23px;
     bottom: 600px;
     z-index: -1;
 }
