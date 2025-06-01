@@ -121,7 +121,7 @@
 
 .body .quote1 {
     position: relative;
-    bottom: 1500px;
+    bottom: 1400px;
     font-size: 30px;
     font-size: 25px;
     color: #966F3A;
@@ -130,7 +130,7 @@
 
 .body .name-M {
     position: relative;
-    bottom: 1450px;
+    bottom: 1350px;
     font-size: 30px;
     font-size: 25px;
     color: #966F3A;
@@ -141,7 +141,7 @@
     position: relative;
     color: #966F3A;
     font-size: 20px;
-    bottom: 1350px;
+    bottom: 1250px;
 }
 
 
@@ -189,7 +189,7 @@
     position: relative;
     justify-content: end;
     margin: 20px 0; 
-    bottom: 1000px;
+    bottom: 900px;
     left: 70px;
     z-index: -1;
 }
@@ -215,7 +215,7 @@
     position: relative;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1450px;
+    bottom: 1350px;
 }
 
 .image-container4 img {
@@ -227,7 +227,7 @@
     position: relative;
     justify-content: center;
     margin: 20px 0; 
-    bottom: 1450px;
+    bottom: 1350px;
 }
 
 .image-container4M img {
