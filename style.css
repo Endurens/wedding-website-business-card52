@@ -1,5 +1,5 @@
 .container {
-
+    position: absolute;
     font-family: "PT Serif", serif;
 }
 
@@ -160,7 +160,38 @@
 
 .body .preferences-dis {
     position: relative;
-    bottom: 2200px;
+    bottom: 2190px;
+    margin-right: 14%;
+    margin-left: 14%;
+}
+
+
+
+.body .confirmation {
+    position: relative;
+    color: #966F3A;
+    font-size: 20px;
+    bottom: 2150px;
+}
+
+.body .confirmation-dis {
+    position: relative;
+    bottom: 2140px;
+    margin-right: 14%;
+    margin-left: 14%;
+}
+
+
+.body .photo {
+    position: relative;
+    color: #966F3A;
+    font-size: 20px;
+    bottom: 2100px;
+}
+
+.body .photo-dis {
+    position: relative;
+    bottom: 2090px;
     margin-right: 14%;
     margin-left: 14%;
 }
@@ -210,7 +241,7 @@
 .image-container2 {
     position: relative;
     bottom: 1900px;
-    left: 70px;
+    left: 67px;
     z-index: -2;
 }
 
