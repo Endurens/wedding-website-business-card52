@@ -1,11 +1,11 @@
 .container {
-    margin: 0 auto;
-    padding: 20px;
+
     font-family: "PT Serif", serif;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
 }
+
+
+/* Header */
+
 
 .header {
     text-align: center;
@@ -85,6 +85,8 @@
 }
 
 
+/* Body */
+
 
 .body {
     position: relative;
@@ -99,10 +101,6 @@
     margin-left: 10%;
     margin-right: 10%;
     background-color: #ffffffbb; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
     z-index: -1;
 }
 
@@ -146,7 +144,31 @@
     bottom: 2250px;
 }
 
+.body .menu-dis {
+    position: relative;
+    bottom: 2240px;
+    margin-right: 14%;
+    margin-left: 14%;
+}
 
+.body .preferences {
+    position: relative;
+    color: #966F3A;
+    font-size: 20px;
+    bottom: 2200px;
+}
+
+.body .preferences-dis {
+    position: relative;
+    bottom: 2200px;
+    margin-right: 14%;
+    margin-left: 14%;
+}
+
+
+
+
+/* Логика и картинки */
 
 
 #countdown {
@@ -187,8 +209,6 @@
 
 .image-container2 {
     position: relative;
-    justify-content: end;
-    margin: 20px 0; 
     bottom: 1900px;
     left: 70px;
     z-index: -2;
