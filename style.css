@@ -98,7 +98,7 @@
     position: absolute;
     top: 100px;
     width: 333px;
-    height: 4300px;
+    height: 4400px;
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -274,27 +274,27 @@
     font-family: "Great Vibes", cursive;
     margin-top: 20px;
     font-size: 37px;
-    top: 2990px;
+    top: 3050px;
 }
 
 .body .point-time {
     position: relative;
     text-align: start;
-    right: 170px;
-    bottom: 340px;
+    right: 130px;
+    bottom: 290px;
 }
 
 .body .point-place {
     position: relative;
     text-align: start;
     left: 14%;
-    bottom: 385px;
+    bottom: 335px;
 }
 
 .body .point-dis {
     position: relative;
     text-align: start;
-    bottom: 345px;
+    bottom: 295px;
     margin-right: 4%;
     margin-left: 30%;
 }
@@ -414,5 +414,5 @@
     display: flex;
     align-content: center;
     flex-direction: column;
-    top: 3923px;
+    top: 4050px;
 }
