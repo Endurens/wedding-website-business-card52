@@ -1,5 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Majestic_0.ttf);
+}
+
+
 .container {
-    font-family: "PT Serif", serif;
+    font-family: "PT myFirstFont", serif;
 }
 
 
@@ -14,7 +20,7 @@
 .header .coop-names {
     position: relative;
     padding-top: 28px;
-    font-family: "Great Vibes", cursive;
+    font-family: myFirstFont, cursive;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
@@ -272,9 +278,8 @@
     position: absolute;
     color: #966F3A;
     font-family: "Great Vibes", cursive;
-    margin-top: 60px;
     font-size: 37px;
-    top: 3000px;
+    top: 2900px;
 }
 
 .body .point-time {
