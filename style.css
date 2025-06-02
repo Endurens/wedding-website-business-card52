@@ -220,10 +220,18 @@
 
 .lable-form {
     position: relative;
-    bottom: 10px;
+    top: 10px;
     color: #5D6B4C;
     font-size: 17px;
 }
+
+.lable-form-email {
+    position: relative;
+    top: -5px;
+    color: #5D6B4C;
+    font-size: 17px;
+}
+
 
 /* Стили для контейнера формы */
 .body .form {
@@ -256,6 +264,21 @@
     font-size: 26px;
 }
 
+.body .emailarea {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 40px;
+    border: 2px solid #966F3A;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
 /* Стили для текстовой области */
 .body .textarea {
     position: relative;
@@ -263,12 +286,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 233px;
+    top: 23px;
     width: 270px;
-    height: 320px;
+    height: 160px;
     border: 2px solid #966F3A;
     border-radius: 10px;
-    padding: 10px;
     box-sizing: border-box;
     font-size: 16px;
 }
